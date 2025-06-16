@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project One</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <header>
+    <h1>Project One</h1>
+    <p>Short Tagline for the Project</p>
+  </header>
+
+  <section class="container">
+    <h2>Overview</h2>
+    <p>
+      Describe the project. What problem does it solve? What makes it interesting?
+    </p>
+
+    <img src="screenshot.png" alt="Project Screenshot" class="hero-img" />
+
+    <div class="project-details">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Feature one</li>
+        <li>Feature two</li>
+        <li>Feature three</li>
+      </ul>
+
+      <h2>Tech Stack</h2>
+      <p>HTML, CSS, JavaScript</p>
+
+      <h2>Links</h2>
+      <p>
+        <a href="#" target="_blank">Live Demo</a> |
+        <a href="#" target="_blank">GitHub Repo</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
