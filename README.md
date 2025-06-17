@@ -1,22 +1,91 @@
-# Static Portfolio Template
+<!DOCTYPE html>
+<html lang="en">
 
-## Quick Start
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-1. **Edit files**  
-   - Open `index.html`, `style.css`, and `script.js` in your code editor.  
-   - Replace placeholders like `Your Name`, `Your Title`, and project details.
+<body>
+  <header id="hero">
+    <div class="container">
+      <h1>Hi, <br> I'M COLLLINS LEO </h1>
+      <h2>WEB DEVELOPER</h2>
+      <p class="tagline"> I'm a passionate web developer with a strong focus on building clean, responsive, and
+        user-friendly websites and applications.</p>
+      <a href="http://127.0.0.1:5500/Project%201.html" class="btn">View My Work</a>
+    </div>
+  </header>
 
-2. **Preview locally**  
-   - Double‑click `index.html` to open in your browser, or run a simple server:  
-     ```bash
-     npx serve .
-     ```
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        With experience in both front-end and back-end technologies, I enjoy turning complex problems into simple,
+        elegant solutions. Whether working independently or as part of a team, I take pride in writing efficient,
+        maintainable code and staying up-to-date with modern development practices..
+      </p>
+    </div>
+  </section>
 
-3. **Add your resume**  
-   - Replace `resume.pdf` with your actual PDF file in the same folder (or remove the section).
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of the project goes here.</p>
+          <div class="links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Short description of the project goes here.</p>
+          <div class="links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Short description of the project goes here.</p>
+          <div class="links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-4. **Deploy**  
-   - **GitHub Pages**: Push the folder to a GitHub repo, then enable Pages.  
-   - **Vercel / Netlify**: Drag‑and‑drop or connect your repo — no config needed.  
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p><a href="Collins Leo CV.pdf" class="btn">View resume (PDF)</a></p>
+    </div>
+  </section>
 
-Enjoy your new portfolio!
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="https://mail.com">kaymail@email.com</a></p>
+
+      <p>
+        X:
+        <a href="https://x.com/CollinsLeo14" target="_blank">@CollinsLeo14</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Collins leo. <br>All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
